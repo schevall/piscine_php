@@ -1,0 +1,60 @@
+#!/usr/bin/php
+<?PHP
+
+echo "Hello\n";
+
+$my_var = 42;
+$my_str = "WORDL";
+$my_tab = array("zero", "un", "deux");
+$my_hash = array("key1" => "val1", "key2" => "val2");
+
+echo $my_var."\n";
+
+$result = "21" + "21" + 1;
+
+echo "$result\n";
+
+echo "$my_tab[0]\n";
+echo $my_hash["key1"]."\n";
+
+print_r($my_tab);
+
+function my_add($p1, $p2)
+{
+	return $p1 + $p2;
+}
+
+echo my_add("36", 4)."\n";
+
+if ($my_tab[1] = "un")
+	echo "OK\n";
+else
+	echo "KO\n";
+
+while ($my_var > 0)
+{
+	echo $my_var."\n";
+	$my_var--;
+}
+
+echo "$argc\n";
+print_r ($argv);
+
+foreach ($my_tab as $elem)
+{
+	echo "$elem\n";
+}
+foreach ($argv as $elem)
+{
+	echo "$elem\n";
+}
+
+$my_tab2 = explode(";", "zero;un;deux;trois");
+foreach ($my_tab2 as $elem)
+{
+	echo "$elem\n";
+}
+
+
+
+?>

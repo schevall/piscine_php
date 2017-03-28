@@ -1,20 +1,18 @@
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
-    width: 100%;
-    height: 95vw;
-    padding: 10px 100px 20px 100px;
+    height: 50vw;
     background: #514F51;
 }
 
 .wrapper_title {
     margin: auto;
-    width: 80%;
-    height: 15%;
+    width: 75%;
+    margin-top: 20px;
+    height: 14%;
 }
 
 .title {
@@ -24,7 +22,7 @@ body {
     background-color: #918F91;
     border : 1px solid black;
     border-radius: 8px;
-    box-shadow: 5px 5px 5px #000;
+    box-shadow: 10px 10px 10px #000;
 }
 
 #day_of_the_42 {
@@ -36,71 +34,165 @@ body {
 
 #close {
     position: absolute;
-    right: 4px;
-    bottom: 4px;
-    width: 3%;
-    height: 8%;
+    right: 10px;
+    bottom: 10px;
+    width: 1.5%;
+    height: 10%;
 }
 
 #reload {
     position: absolute;
-    top: 4px;
-    right: 4px;
-    width: 3%;
-    height: 8%;
+    top: 10px;
+    right: 10px;
+    width: 1.5%;
+    height: 10%;
 }
 
 #magnifying_glass {
     position: absolute;
-    right: 20px;
-    bottom: -10px;
-    width: 29%;
-    height: 80%;
+    right: 40px;
+    top: 10px;
+    width: 17%;
+    height: 110%;
 }
 
 .wrapper_middle {
-   
+    display: flex;
     margin: auto;
-    margin-top: 20px;
-    width: 75%;
+    margin-top: 25px;
+    width: 70%;
     height: 75%; 
 }
 
 .left_side {
     position: relative;
-    width: 18%;
-    height: 95%;
+    width: 11%;
+    height: 70%;
     background-color: #918F91;
     border : 1px solid black;
     border-radius: 8px;
-    box-shadow: 5px 5px 5px #000;
+    box-shadow: 10px 10px 10px #000;
 }
 
-.center {
-     display: inline;
+.left_photos {
     position: relative;
-    width: 60%;
-    height: 95%;
-    background-color: #918F91;
-    border : 1px solid black;
-    border-radius: 8px;
-    box-shadow: 5px 5px 5px #000;
+    margin: 20px 30px 5px 50px;
+    width:  100px;
+    height: 100px;
 }
 
-.left_side {
+.center_wrapper {
     position: relative;
-    width: 18%;
-    height: 95%;
+    width: 75%;
+    height: 90%;
+    margin-left: 40px;
+    margin-right: 40px;
     background-color: #918F91;
     border : 1px solid black;
     border-radius: 8px;
-    box-shadow: 5px 5px 5px #000;
+    box-shadow: 10px 10px 10px #000;
 }
 
+#center_picture {
+    display: flex;
+    margin: auto;
+    margin-top: 12px; 
+    width: 98%;
+    height: 97%;
+}
 
-.question {
+#link_ikea {
+    position: absolute;
+    bottom: 75px;
+    right: 750px;
+    width: 140px;
+    height: 300px;
+
+}
+
+#link_apple {
+    position: absolute;
+    bottom: 160px;
+    right: 60px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.right_side {
+    position: relative;
+    width: 11%;
+    height: 70%;
+    background-color: #918F91;
+    border : 1px solid black;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px #000;
+}
+
+#book {
+    position: relative;
+    display: flex; 
+    margin: auto;
+    margin-top: 25px;
+    width: 100px;
+    height: 140px;
+}
+
+#towel {
+    position: relative;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    width: 90px;
+    height: 90px;
+}
+
+#wall {
+    background-image: url(file:///users/schevall/Documents/piscine_php/day_00/ex02/ressources/brick.jpg);
+    background-repeat: repeat;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    width: 85%;
+    height: 22%;
+}
+
+#red_border {
+    border : 8px solid red;
+    border-radius: 8px;
+}
+
+.question_wrapper {
+    width: 26%;
+    height: 14%;
+    position : absolute;
+    padding: 20px;
+    bottom: 85px;
+    left: 280px;
     background: #89FF8A;
+    border : 1px solid black;
+    border-radius: 8px;
+    box-shadow: 15px 15px 15px #000;
 }
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    display: inline;
+    font-size: 50px;
+}
+
+span {
+    font-family: sans-serif;
+    font-size: 25px;    
+}
+
+#ordinateur {
+    text-shadow: 0.2em 0.3em 0.45em red;
+}
+
+
+
 
 
 
