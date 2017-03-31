@@ -21,9 +21,6 @@ if ($argc != 2)
 else {
   $str = trim ($argv[1]);
   $len = strlen($str);
-  $nb1;
-  $nb2;
-  $op;
   $bal = 1;
   for ($i = 0; $i < $len; $i++) {
     if (is_numeric($str[$i]) && $bal == 1)
