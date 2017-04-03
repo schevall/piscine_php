@@ -4,21 +4,26 @@
 <HEAD>
 	<TITLE>B.A.BA</TITLE>
 	<STYLE>
-			.title { 
+			.title {
 				color: white;
 				font-size: 35px;
 				text-align: center;
 			}
 			.container {
-				width: 100%;
-				height: 500px;	
+				display: flex;
+				margin: auto;
+				width: 90vw;
+				height: 75vh;
 			}
 			.photo {
+				box-sizing: border-box;
+				margin: auto;
 				float: left;
-				padding: 0.5%;
-				width: 49%;
-				height: 100%;
+				position: relative;
+				width: 95%;
+				height: 95%;
 			}
+
 			.links {
 				width: 100%;
 				border: none;
@@ -43,20 +48,16 @@
 		<p>Titre : Première page</p>
 	</div>
 	<div class="container">
-		<img class="photo" src="/Users/schevall/Documents/piscine_php/day_00/ex00/photo2.png" alt="photo of a fish">
-		<img class="photo" src="/Users/schevall/Documents/piscine_php/day_00/ex00/photo1.png" alt="photo of interior plants">
-	</div>
-	<div>
-		<table class="links">
-			<tr>
-				<td>
+		<div ><img class="photo" src="http://kids.nationalgeographic.com/content/dam/kids/photos/animals/Fish/H-P/pufferfish-inflated-closeup.jpg">
+				<div class="links">
 					<a href="https://www.akouashop.com/" target="_blank">aquariums</a>
-				</td>
-				<td>
+				</div>
+		</div>
+		<div><img class="photo" src="https://s-media-cache-ak0.pinimg.com/originals/30/05/0d/30050d6d1a9bbd7006cfc672aa1cca78.jpg">
+				<div class="links">
 					<a href="http://www.plantes-et-jardins.com/" target="_blank">jardinage</a>
-				</td>
-			</tr>
-		</table>
+				</div>
+		</div>
 	</div>
 	<div>
 		<hr>

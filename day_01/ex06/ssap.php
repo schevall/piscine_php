@@ -15,7 +15,7 @@ else {
 		}
 		$i++;
 	}
-	sort ($output);
+	sort ($output, SORT_STRING);
 	foreach ($output as $elem)
 		echo $elem . "\n";
 }

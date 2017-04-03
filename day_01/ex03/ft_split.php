@@ -8,7 +8,7 @@ function ft_split($str) {
 			array_push($output, $elem);
 	}
   if ($str != NULL)
-    sort($output);
+    sort($output, SORT_STRING);
   return ($output);
 }
 ?>

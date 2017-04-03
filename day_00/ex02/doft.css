@@ -4,7 +4,7 @@
 }
 
 body {
-    height: 50vw;
+    height: 90vh;
     background: #514F51;
 }
 
@@ -61,11 +61,12 @@ body {
     margin: auto;
     margin-top: 25px;
     width: 70%;
-    height: 75%; 
+    height: 75%;
 }
 
 .left_side {
-    position: relative;
+    display: flex;
+    flex-direction: column;
     width: 11%;
     height: 70%;
     background-color: #918F91;
@@ -75,10 +76,13 @@ body {
 }
 
 .left_photos {
-    position: relative;
-    margin: 20px 30px 5px 50px;
+    margin: auto;
     width:  100px;
-    height: 100px;
+    height: auto;
+}
+
+#eye {
+  border: 5px solid red;
 }
 
 .center_wrapper {
@@ -96,7 +100,7 @@ body {
 #center_picture {
     display: flex;
     margin: auto;
-    margin-top: 12px; 
+    margin-top: 12px;
     width: 98%;
     height: 97%;
 }
@@ -131,7 +135,7 @@ body {
 
 #book {
     position: relative;
-    display: flex; 
+    display: flex;
     margin: auto;
     margin-top: 25px;
     width: 100px;
@@ -147,14 +151,14 @@ body {
     height: 90px;
 }
 
-#wall {
-    background-image: url(file:///users/schevall/Documents/piscine_php/day_00/ex02/ressources/brick.jpg);
+#wall_block{
+    background-image: url(ressources/brick.jpg);
     background-repeat: repeat;
-    position: relative;
+    background-size: 50px 50px;
     margin: auto;
     margin-top: 10px;
-    width: 85%;
-    height: 22%;
+    width: 170px;
+    height: 110px;
 }
 
 #red_border {
@@ -167,7 +171,7 @@ body {
     height: 14%;
     position : absolute;
     padding: 20px;
-    bottom: 85px;
+    bottom: 130px;
     left: 280px;
     background: #89FF8A;
     border : 1px solid black;
@@ -183,17 +187,11 @@ h2 {
 }
 
 span {
+    font-weight: 300;
     font-family: sans-serif;
-    font-size: 25px;    
+    font-size: 25px;
 }
 
 #ordinateur {
     text-shadow: 0.2em 0.3em 0.45em red;
 }
-
-
-
-
-
-
-
