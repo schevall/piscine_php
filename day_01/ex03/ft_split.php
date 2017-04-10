@@ -1,13 +1,13 @@
-#!/usr/bin/php
-<?PHP
+<?php
 function ft_split($str) {
+	if (!$str)
+		return NULL;
 	$tab = explode(" ", $str);
-	$output = array();
 	foreach ($tab as $elem) {
-		if ($elem != NULL)
-			array_push($output, $elem);
+		if ($elem)
+			$output[] = $elem;
 	}
-  if ($str != NULL)
+  if ($str)
     sort($output, SORT_STRING);
   return ($output);
 }

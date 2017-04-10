@@ -28,7 +28,7 @@ else {
     else if (!is_numeric($str[$i]) && $str[$i] != " ") {
       if (!is_opt($str[$i])) {
         echo "Syntax Error\n";
-        return NULL;
+        exit();
       }
       else {
         $op = $str[$i];
@@ -41,6 +41,10 @@ else {
     else if ($str[$i] == " ") {
 
     }
+  }
+  if ((!$nb1 && !is_numeric($nb1)) || (!$nb2 && !is_numeric($nb2))) {
+    echo "Syntax Error\n";
+    exit();
   }
   if ($op == "+")
     $result = $nb1 + $nb2;

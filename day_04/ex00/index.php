@@ -9,9 +9,9 @@ if ($_GET["submit"]) {
  ?>
 <html><body>
   <form method="get">
-    Login  :<input style="width: 500px; height: 25px" type="text" size="80" name="login" value="<?= $_SESSION['login'] ?>"/>
+    Identifiant :<input style="width: 500px; height: 25px" type="text" size="80" name="login" value="<?= $_SESSION['login'] ?>"/>
     <br />
-    Passwd :<input style="width: 500px; height: 25px" type="password" size="80" name="passwd" value="<?= $_SESSION['passwd'] ?>"/>
+    Mot de passe :<input style="width: 500px; height: 25px" type="password" size="80" name="passwd" value="<?= $_SESSION['passwd'] ?>"/>
     <input style="width: 200px; height: 25px" type="submit" size="80" name="submit" value="OK">
   </form>
 </body></html>

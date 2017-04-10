@@ -2,7 +2,7 @@
 
 $var = $_GET;
 foreach ($var as $elem => $value) {
-  echo $elem . ":" . $value . "\n";
+  echo $elem . ": " . $value . "\n";
 }
 
  ?>

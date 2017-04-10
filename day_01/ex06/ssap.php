@@ -1,22 +1,18 @@
 #!/usr/bin/php
 <?php
 if ($argc == 1)
-  return ;
+  exit();
 else {
-	$i = 0;
-	$output = array();
+	unset($arvg[0]);
 	foreach ($argv as $elem) {
-		if ($i != 0) {
 			$tab = explode (" ", $elem);
 			foreach ($tab as $value) {
-				if ($value != NULL)
+				if ($value)
 					$output[] = $value;
-			}
-		}
-		$i++;
+		  }
 	}
 	sort ($output, SORT_STRING);
 	foreach ($output as $elem)
 		echo $elem . "\n";
 }
- ?>
+?>
